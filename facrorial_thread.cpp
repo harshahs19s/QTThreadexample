@@ -1,6 +1,7 @@
 #include "facrorial_thread.h"
 #include "singalton.h"
 #include <QDebug>
+//just change
 facrorial_thread::facrorial_thread(QObject *parent) : QThread(parent)
 {
     f = singalton::getInstance();
